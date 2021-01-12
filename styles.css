@@ -146,7 +146,7 @@ h1, h2, h3, .navbar-brand{
   -webkit-border-radius: 50%;
 }
 
-
+/* --------------------------- PROFILE IMAGES --------------------------- */
 .card-img:hover{
   position: relative;
   transform:scale(1.5);
