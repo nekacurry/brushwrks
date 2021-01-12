@@ -1,10 +1,6 @@
 
 /* ------------------------- NAVBAR ------------------------- */
 
-.navbar-expand {
-  justify-content: space-between !important;
-}
-
 .navbar-brand {
   font-family: "Josefin Sans";
 }
@@ -29,6 +25,7 @@
   height:80vh;
 }
 
+
 /* ------------------------- MAIN ------------------------- */
 
 .content-container {
@@ -45,10 +42,16 @@
   left: 0;
   overflow-x: hidden;
   overflow-y: auto;
+  z-index: 10;
 }
 
 .sidebar-container p {
   bottom: 0;
+}
+
+.sidebar-logo {
+  padding: 22px 15px 10px 30px;
+  font-size: 20px;
 }
 
 .sidebar-navigation {
