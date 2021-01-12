@@ -1,15 +1,5 @@
 
-/* ------------------------- NAVBAR ------------------------- */
-
-.navbar-brand {
-  font-family: "Josefin Sans";
-}
-
 /* ------------------------- JUMBOTRON ------------------------- */
-
-.jumbotron h1{
-  font-family: "Josefin Sans";
-}
 
 .hero-background-img{
   background: 
@@ -32,6 +22,11 @@
   padding-left: 180px;
   padding-top: 20px;
 }
+
+h1, h2, h3, .navbar-brand{
+  font-family: "Josefin Sans";
+}
+
 
 /* ------------------------- SIDEBAR ------------------------- */
 
@@ -111,3 +106,18 @@
   background-color: transparent;
 }
 
+
+/* ------------------------- SIGN UP FORM ------------------------- */
+
+.form-control{
+  height: 40px;
+  color: #969fa4;
+}
+.signup-form{
+  width: 400px;
+  margin: 0 auto;
+}
+.signup-form form{
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+}
