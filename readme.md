@@ -1,5 +1,5 @@
 # Brushwrks
-Project for Make School Fall Intensive 1.1
+Project for Make School Spring Intensive 1.2
 
 ## Project Description
 Brushwrks is a site and service dedicated to helping art loves connect with artists. The concept is to have searchable freelancer profiles searchable on the website to help a potential client find the specific type of art they want.
