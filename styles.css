@@ -1,6 +1,42 @@
+
+/* ------------------------- NAVBAR ------------------------- */
+
 .navbar-expand {
   justify-content: space-between !important;
 }
+
+.navbar-brand {
+  font-family: "Josefin Sans";
+}
+
+/* ------------------------- JUMBOTRON ------------------------- */
+
+.jumbotron h1{
+  font-family: "Josefin Sans";
+}
+
+.hero-background-img{
+  background: 
+  linear-gradient(
+    rgba(0, 0, 250, 0.25), 
+    rgba(125, 250, 250, 0.45)
+  ),
+  url(assets/fish.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height:80vh;
+}
+
+/* ------------------------- MAIN ------------------------- */
+
+.content-container {
+  padding-left: 180px;
+  padding-top: 20px;
+}
+
+/* ------------------------- SIDEBAR ------------------------- */
 
 .sidebar-container {
   position: fixed;
@@ -11,15 +47,12 @@
   overflow-y: auto;
 }
 
-.content-container {
-  padding-top: 20px;
+.sidebar-container p {
+  bottom: 0;
 }
 
 .sidebar-navigation {
-  padding: 0;
-  margin: 0;
   list-style-type: none;
-  position: relative;
 }
 
 .sidebar-navigation li {
@@ -75,6 +108,3 @@
   background-color: transparent;
 }
 
-.content-container {
-  padding-left: 220px;
-}
