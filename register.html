@@ -7,7 +7,8 @@
   <!-- FAVICON -->
   
   <!-- FONTS -->
-
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cantarell:ital@1&family=Josefin+Sans:ital,wght@1,300&family=Lato:ital,wght@1,300&display=swap" rel="stylesheet"> 
   <!-- CSS -->
   <link rel="stylesheet" href="styles.css">
   <!-- BOOTSTRAP -->
@@ -15,61 +16,42 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 <body>
-  <!--NAVBAR-->
-  <nav class="navbar navbar-expand navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Brushwrks</a>
-    <div class="navbar-nav">
-      <a class="nav-item nav-link disabled" href=" ">Log in</a>
-      <a class="nav-item nav-link text-info align-self-center " href="register.html">Sign up</a>
-    </div>
-  </nav>
-
-  <!--SIDEBAR-->
-  <div class="sidebar-container bg-dark">
-    <ul class="sidebar-navigation">
-      <li class="header">Navigation</li>
-      <li>
-        <a href="index.html">
-          <i class="fa fa-home" aria-hidden="true"></i> Home
-        </a>
-      </li>
-      <li>
-        <a href="explore.html">
-          <i class="fa fa-compass" aria-hidden="true"></i> Explore
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <i class="fa fa-users" aria-hidden="true"></i> Following
-        </a>
-      </li>
-      <li class="header">Manage</li>
-      <li>
-        <a href="profileEx.html">
-          <i class="fa fa-user-circle" aria-hidden="true"></i> Profile
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <i class="fa fa-inbox" aria-hidden="true"></i> Inbox
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <i class="fa fa-cog" aria-hidden="true"></i> Settings
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <i class="fa fa-info-circle" aria-hidden="true"></i> Information
-        </a>
-      </li>
-    </ul>
+  <div class="plan-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+    <h1 class="display-4 text-info">Join Us!</h1>
+    <p class="lead">Get access to the easiest way to find and promote freelance artwork</p>
   </div>
-  
 
 
-  <!--FOOTER-->
+  <!--FORM-->
+  <div class="signup-form">
+    <form class="rounded" method="post">
+      <div class="form-group">
+        <input type="text" class="form-control" name="first_name" placeholder="First" required="required">
+      </div>
+      <div class="form-group">
+        <input type="text" class="form-control" name="last_name" placeholder="Last" required="required">
+      </div>
+      <div class="form-group">
+        <input type="username" class="form-control" name="username" placeholder="Username" required="required">
+      </div>
+      <div class="form-group">
+        <input type="email" class="form-control" name="email" placeholder="Email" required="required">
+      </div>
+		  <div class="form-group">
+        <input type="password" class="form-control" name="password" placeholder="Password" required="required">
+      </div>
+		  <div class="form-group">
+        <input type="password" class="form-control" name="confirm_password" placeholder="Confirm Password" required="required">
+      </div>        
+      <div class="form-group">
+			  <label class="checkbox-inline"><input type="checkbox" required="required"> I accept the <a href="#">Terms of Use</a> &amp; <a href="#">Privacy Policy</a></label>
+		  </div>
+		  <div class="form-group">
+        <button type="submit" class="btn btn-success btn-lg btn-block">Register Now</button>
+      </div>
+    </form>
+  </div>
+
 
 
  <!--SCRIPTS-->

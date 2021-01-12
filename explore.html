@@ -7,7 +7,8 @@
   <!-- FAVICON -->
   
   <!-- FONTS -->
-
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cantarell:ital@1&family=Josefin+Sans:ital,wght@1,300&family=Lato:ital,wght@1,300&display=swap" rel="stylesheet"> 
   <!-- CSS -->
   <link rel="stylesheet" href="styles.css">
   <!-- BOOTSTRAP -->
@@ -15,61 +16,68 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 <body>
+    <!--SIDEBAR-->
+    <div class="sidebar-container bg-dark d-flex flex-column">
+      <div class="sidebar-logo">
+        <a class="fa fa-paint-brush text-decoration-none" href="index.html"></a>
+        <a class="navbar-brand text-white" href="index.html">Brushwrks</a>
+      </div>
+      <ul class="sidebar-navigation p-0 m-0 position-relative">
+        <li class="header">Navigation</li>
+        <li>
+          <a href="index.html">
+            <i class="fa fa-home" aria-hidden="true"></i> Home
+          </a>
+        </li>
+        <li>
+          <a href="explore.html">
+            <i class="fa fa-compass" aria-hidden="true"></i> Explore
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-users" aria-hidden="true"></i> Following
+          </a>
+        </li>
+        <li class="header">Manage</li>
+        <li>
+          <a href="profileEx.html">
+            <i class="fa fa-user-circle" aria-hidden="true"></i> Profile
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-inbox" aria-hidden="true"></i> Inbox
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-cog" aria-hidden="true"></i> Settings
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-info-circle" aria-hidden="true"></i> Information
+          </a>
+        </li>
+      </ul>
+      <p class="text-muted text-center position-fixed mb-1 ml-3">© 2021 Anneka Curry</p>
+    </div>
+  
   <!--NAVBAR-->
-  <nav class="navbar navbar-expand navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Brushwrks</a>
+  <nav class="navbar navbar-expand navbar-dark bg-dark d-flex justify-content-end">
     <div class="navbar-nav">
       <a class="nav-item nav-link disabled" href=" ">Log in</a>
       <a class="nav-item nav-link text-info align-self-center " href="register.html">Sign up</a>
     </div>
   </nav>
 
-  <!--SIDEBAR-->
-  <div class="sidebar-container bg-dark">
-    <ul class="sidebar-navigation">
-      <li class="header">Navigation</li>
-      <li>
-        <a href="index.html">
-          <i class="fa fa-home" aria-hidden="true"></i> Home
-        </a>
-      </li>
-      <li>
-        <a href="explore.html">
-          <i class="fa fa-compass" aria-hidden="true"></i> Explore
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <i class="fa fa-users" aria-hidden="true"></i> Following
-        </a>
-      </li>
-      <li class="header">Manage</li>
-      <li>
-        <a href="profileEx.html">
-          <i class="fa fa-user-circle" aria-hidden="true"></i> Profile
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <i class="fa fa-inbox" aria-hidden="true"></i> Inbox
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <i class="fa fa-cog" aria-hidden="true"></i> Settings
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <i class="fa fa-info-circle" aria-hidden="true"></i> Information
-        </a>
-      </li>
-    </ul>
-  </div>
+  
+  <div class="content-container">
+
+    <div class="container-fluid">
 
 
-
-  <!--FOOTER-->
 
 
  <!--SCRIPTS-->
